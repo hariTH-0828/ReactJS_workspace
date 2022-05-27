@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import OddCounter from './Component/Counter';
 import ParentComponent from './Component/ParentComponent';
-import NameList from './Component/ListRendering';
+import PersonList from './Component/PersonList';
+
 
 class App extends Component {
   render() {
@@ -10,7 +11,7 @@ class App extends Component {
       <div className="App">
         <OddCounter countBy={2}/>
         <ParentComponent/>
-        <NameList/>
+        <PersonList/>
       </div>
     );
   }
